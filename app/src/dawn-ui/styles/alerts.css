@@ -1,0 +1,39 @@
+.dawn-alert {
+  background-color: var(--dawn-control-background);
+
+  padding: 20px 30px;
+
+  border-radius: var(--dawn-border-radius);
+
+  min-width: 500px;
+  max-width: 1000px;
+  min-height: 100px;
+
+  display: flex;
+  flex-direction: column;
+
+  box-sizing: border-box;
+
+  animation: alert-popin forwards 0.3s;
+
+  box-shadow: 0px 0px 5px 5px var(--dawn-control-background);
+}
+
+.dawn-alert-content {
+  flex: 1;
+  word-break: normal;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+@keyframes alert-popin {
+  0% {
+    opacity: 75%;
+    transform: scale(0.8    );
+  }
+  100% {
+    opacity: 100%;
+    transform: scale(1);
+  }
+}

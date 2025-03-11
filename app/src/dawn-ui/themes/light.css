@@ -1,0 +1,35 @@
+body.dawn-theme-light {
+  /* ----- Colors ----- */
+
+  --dawn-root-background: hsla(var(--dawn-neutral-base-color), 5%, 70%, 1);
+  --dawn-root-color: #222;
+
+  --dawn-container-background: hsla(var(--dawn-neutral-base-color), 5%, 80%, 1);
+  --dawn-container-hover: hsla(var(--dawn-neutral-base-color), 5%, 85%, 1);
+  --dawn-container-focus: hsla(var(--dawn-neutral-base-color), 5%, 80%, 1);
+  --dawn-container-border: hsla(var(--dawn-neutral-base-color), 5%, 85%, 1);
+
+  --dawn-control-background: hsla(var(--dawn-neutral-base-color), 5%, 90%, 1);
+  --dawn-control-hover: hsla(var(--dawn-neutral-base-color), 5%, 85%, 1);
+  --dawn-control-focus: hsla(var(--dawn-neutral-base-color), 5%, 90%, 1);
+  --dawn-control-border: hsla(var(--dawn-neutral-base-color), 5%, 85%, 1);
+
+  --dawn-container-secondary-background: hsla(
+    var(--dawn-neutral-base-color),
+    5%,
+    82%,
+    1
+  );
+
+  --dawn-popup-background: hsla(var(--dawn-neutral-base-color), 60%, 75%, 1);
+
+  --dawn-accent: hsla(var(--dawn-accent-base-color), 45%, 40%, 1);
+  --dawn-accent-text: black;
+
+  /* ----- Values ----- */
+  --dawn-hover-transition: 0.2s;
+  --dawn-border-radius: 20px;
+  --dawn-control-border-radius: 5px;
+  --dawn-flex-gap: 20px;
+  --dawn-page-width: 60%;
+}
